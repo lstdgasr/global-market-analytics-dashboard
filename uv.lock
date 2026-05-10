@@ -341,6 +341,7 @@ dependencies = [
     { name = "pandas", version = "2.3.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "pandas", version = "3.0.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "plotly" },
+    { name = "requests" },
     { name = "streamlit" },
     { name = "yfinance" },
 ]
@@ -355,6 +356,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.26" },
     { name = "pandas", specifier = ">=2.2" },
     { name = "plotly", specifier = ">=5.22" },
+    { name = "requests", specifier = ">=2.32" },
     { name = "streamlit", specifier = ">=1.36" },
     { name = "yfinance", specifier = ">=0.2.40" },
 ]

@@ -1,0 +1,98 @@
+country_code,country_name,year,indicator_code,indicator_name,value,unit,category
+CHN,China,2020,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,81.8646786726428,% of GDP,market_depth
+CHN,China,2021,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,79.3192238397069,% of GDP,market_depth
+CHN,China,2022,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,62.6166578891979,% of GDP,market_depth
+CHN,China,2023,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,59.8556765846528,% of GDP,market_depth
+CHN,China,2024,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,62.7181039133864,% of GDP,market_depth
+CHN,China,2020,FP.CPI.TOTL.ZG,Inflation,2.41942189457782,annual %,price
+CHN,China,2021,FP.CPI.TOTL.ZG,Inflation,0.981015135544881,annual %,price
+CHN,China,2022,FP.CPI.TOTL.ZG,Inflation,1.9735755573905,annual %,price
+CHN,China,2023,FP.CPI.TOTL.ZG,Inflation,0.23483682889305,annual %,price
+CHN,China,2024,FP.CPI.TOTL.ZG,Inflation,0.218128938439177,annual %,price
+CHN,China,2020,NY.GDP.MKTP.KD.ZG,GDP growth,2.34018843078414,annual %,growth
+CHN,China,2021,NY.GDP.MKTP.KD.ZG,GDP growth,8.57008513166322,annual %,growth
+CHN,China,2022,NY.GDP.MKTP.KD.ZG,GDP growth,3.1341888719577,annual %,growth
+CHN,China,2023,NY.GDP.MKTP.KD.ZG,GDP growth,5.41484330099675,annual %,growth
+CHN,China,2024,NY.GDP.MKTP.KD.ZG,GDP growth,4.9773565917572,annual %,growth
+CHN,China,2020,SL.UEM.TOTL.ZS,Unemployment,5.0,% of labor force,labor
+CHN,China,2021,SL.UEM.TOTL.ZS,Unemployment,4.55,% of labor force,labor
+CHN,China,2022,SL.UEM.TOTL.ZS,Unemployment,4.98,% of labor force,labor
+CHN,China,2023,SL.UEM.TOTL.ZS,Unemployment,4.67,% of labor force,labor
+CHN,China,2024,SL.UEM.TOTL.ZS,Unemployment,4.59,% of labor force,labor
+GBR,United Kingdom,2021,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,118.935321441875,% of GDP,market_depth
+GBR,United Kingdom,2022,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,97.3198877208869,% of GDP,market_depth
+GBR,United Kingdom,2020,FP.CPI.TOTL.ZG,Inflation,0.989486703772491,annual %,price
+GBR,United Kingdom,2021,FP.CPI.TOTL.ZG,Inflation,2.51837109614213,annual %,price
+GBR,United Kingdom,2022,FP.CPI.TOTL.ZG,Inflation,7.92204883147902,annual %,price
+GBR,United Kingdom,2023,FP.CPI.TOTL.ZG,Inflation,6.79396706793963,annual %,price
+GBR,United Kingdom,2024,FP.CPI.TOTL.ZG,Inflation,3.2715729463592,annual %,price
+GBR,United Kingdom,2020,NY.GDP.MKTP.KD.ZG,GDP growth,-10.047896637362,annual %,growth
+GBR,United Kingdom,2021,NY.GDP.MKTP.KD.ZG,GDP growth,8.5431118453255,annual %,growth
+GBR,United Kingdom,2022,NY.GDP.MKTP.KD.ZG,GDP growth,5.14970388522993,annual %,growth
+GBR,United Kingdom,2023,NY.GDP.MKTP.KD.ZG,GDP growth,0.271650048355255,annual %,growth
+GBR,United Kingdom,2024,NY.GDP.MKTP.KD.ZG,GDP growth,1.1264226705118,annual %,growth
+GBR,United Kingdom,2020,SL.UEM.TOTL.ZS,Unemployment,4.472,% of labor force,labor
+GBR,United Kingdom,2021,SL.UEM.TOTL.ZS,Unemployment,4.864,% of labor force,labor
+GBR,United Kingdom,2022,SL.UEM.TOTL.ZS,Unemployment,3.768,% of labor force,labor
+GBR,United Kingdom,2023,SL.UEM.TOTL.ZS,Unemployment,4.025,% of labor force,labor
+GBR,United Kingdom,2024,SL.UEM.TOTL.ZS,Unemployment,4.361,% of labor force,labor
+HKG,"Hong Kong SAR, China",2020,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,1777.22631607139,% of GDP,market_depth
+HKG,"Hong Kong SAR, China",2021,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,1472.85965725758,% of GDP,market_depth
+HKG,"Hong Kong SAR, China",2022,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,1273.22822388706,% of GDP,market_depth
+HKG,"Hong Kong SAR, China",2023,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,1043.13245932117,% of GDP,market_depth
+HKG,"Hong Kong SAR, China",2024,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,1118.24283021772,% of GDP,market_depth
+HKG,"Hong Kong SAR, China",2020,FP.CPI.TOTL.ZG,Inflation,0.2509620210808,annual %,price
+HKG,"Hong Kong SAR, China",2021,FP.CPI.TOTL.ZG,Inflation,1.56875834445922,annual %,price
+HKG,"Hong Kong SAR, China",2022,FP.CPI.TOTL.ZG,Inflation,1.88136707196853,annual %,price
+HKG,"Hong Kong SAR, China",2023,FP.CPI.TOTL.ZG,Inflation,2.09660511249089,annual %,price
+HKG,"Hong Kong SAR, China",2024,FP.CPI.TOTL.ZG,Inflation,1.72972119105914,annual %,price
+HKG,"Hong Kong SAR, China",2020,NY.GDP.MKTP.KD.ZG,GDP growth,-6.54480412699255,annual %,growth
+HKG,"Hong Kong SAR, China",2021,NY.GDP.MKTP.KD.ZG,GDP growth,6.45444409087024,annual %,growth
+HKG,"Hong Kong SAR, China",2022,NY.GDP.MKTP.KD.ZG,GDP growth,-3.68378414495199,annual %,growth
+HKG,"Hong Kong SAR, China",2023,NY.GDP.MKTP.KD.ZG,GDP growth,3.2238599613664,annual %,growth
+HKG,"Hong Kong SAR, China",2024,NY.GDP.MKTP.KD.ZG,GDP growth,2.50498758466826,annual %,growth
+HKG,"Hong Kong SAR, China",2020,SL.UEM.TOTL.ZS,Unemployment,5.808,% of labor force,labor
+HKG,"Hong Kong SAR, China",2021,SL.UEM.TOTL.ZS,Unemployment,5.174,% of labor force,labor
+HKG,"Hong Kong SAR, China",2022,SL.UEM.TOTL.ZS,Unemployment,4.318,% of labor force,labor
+HKG,"Hong Kong SAR, China",2023,SL.UEM.TOTL.ZS,Unemployment,2.949,% of labor force,labor
+HKG,"Hong Kong SAR, China",2024,SL.UEM.TOTL.ZS,Unemployment,2.988,% of labor force,labor
+JPN,Japan,2020,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,132.926971755297,% of GDP,market_depth
+JPN,Japan,2021,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,129.8692412031,% of GDP,market_depth
+JPN,Japan,2022,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,126.22924958757,% of GDP,market_depth
+JPN,Japan,2023,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,145.951960431945,% of GDP,market_depth
+JPN,Japan,2024,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,156.685999360649,% of GDP,market_depth
+JPN,Japan,2020,FP.CPI.TOTL.ZG,Inflation,-0.024995834027731,annual %,price
+JPN,Japan,2021,FP.CPI.TOTL.ZG,Inflation,-0.233352779398264,annual %,price
+JPN,Japan,2022,FP.CPI.TOTL.ZG,Inflation,2.49770278172255,annual %,price
+JPN,Japan,2023,FP.CPI.TOTL.ZG,Inflation,3.26813365933163,annual %,price
+JPN,Japan,2024,FP.CPI.TOTL.ZG,Inflation,2.73853681635241,annual %,price
+JPN,Japan,2020,NY.GDP.MKTP.KD.ZG,GDP growth,-4.16876457146743,annual %,growth
+JPN,Japan,2021,NY.GDP.MKTP.KD.ZG,GDP growth,2.69657404187188,annual %,growth
+JPN,Japan,2022,NY.GDP.MKTP.KD.ZG,GDP growth,0.941998775483285,annual %,growth
+JPN,Japan,2023,NY.GDP.MKTP.KD.ZG,GDP growth,1.47503481053384,annual %,growth
+JPN,Japan,2024,NY.GDP.MKTP.KD.ZG,GDP growth,0.104309021773304,annual %,growth
+JPN,Japan,2020,SL.UEM.TOTL.ZS,Unemployment,2.809,% of labor force,labor
+JPN,Japan,2021,SL.UEM.TOTL.ZS,Unemployment,2.808,% of labor force,labor
+JPN,Japan,2022,SL.UEM.TOTL.ZS,Unemployment,2.614,% of labor force,labor
+JPN,Japan,2023,SL.UEM.TOTL.ZS,Unemployment,2.6,% of labor force,labor
+JPN,Japan,2024,SL.UEM.TOTL.ZS,Unemployment,2.5,% of labor force,labor
+USA,United States,2020,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,197.3833187889,% of GDP,market_depth
+USA,United States,2021,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,208.228052204508,% of GDP,market_depth
+USA,United States,2022,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,157.384175416952,% of GDP,market_depth
+USA,United States,2023,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,179.463180379106,% of GDP,market_depth
+USA,United States,2024,CM.MKT.LCAP.GD.ZS,Market capitalization to GDP,216.290842771421,% of GDP,market_depth
+USA,United States,2020,FP.CPI.TOTL.ZG,Inflation,1.23358439630629,annual %,price
+USA,United States,2021,FP.CPI.TOTL.ZG,Inflation,4.69785886363742,annual %,price
+USA,United States,2022,FP.CPI.TOTL.ZG,Inflation,8.00279982052121,annual %,price
+USA,United States,2023,FP.CPI.TOTL.ZG,Inflation,4.11633838374488,annual %,price
+USA,United States,2024,FP.CPI.TOTL.ZG,Inflation,2.94952520485207,annual %,price
+USA,United States,2020,NY.GDP.MKTP.KD.ZG,GDP growth,-2.16302914036166,annual %,growth
+USA,United States,2021,NY.GDP.MKTP.KD.ZG,GDP growth,6.05505293244555,annual %,growth
+USA,United States,2022,NY.GDP.MKTP.KD.ZG,GDP growth,2.51237531986017,annual %,growth
+USA,United States,2023,NY.GDP.MKTP.KD.ZG,GDP growth,2.88755600749487,annual %,growth
+USA,United States,2024,NY.GDP.MKTP.KD.ZG,GDP growth,2.79300127716779,annual %,growth
+USA,United States,2020,SL.UEM.TOTL.ZS,Unemployment,8.055,% of labor force,labor
+USA,United States,2021,SL.UEM.TOTL.ZS,Unemployment,5.349,% of labor force,labor
+USA,United States,2022,SL.UEM.TOTL.ZS,Unemployment,3.65,% of labor force,labor
+USA,United States,2023,SL.UEM.TOTL.ZS,Unemployment,3.638,% of labor force,labor
+USA,United States,2024,SL.UEM.TOTL.ZS,Unemployment,4.022,% of labor force,labor
