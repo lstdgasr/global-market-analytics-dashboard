@@ -13,6 +13,7 @@ How have major global equity markets performed, and how does that performance co
 - Multi-source data pipeline combining market prices and official World Bank macro indicators.
 - Data cleaning and validation for financial time series and country-level macro data.
 - Return, volatility, maximum drawdown, correlation, macro context, and return-to-risk analysis.
+- SQL analytics layer using CTEs, window functions, aggregations, and multi-table joins.
 - A bilingual executive-style dashboard with interactive filters and automated insight generation.
 - Reproducible sample datasets plus optional online refresh scripts.
 - Unit-tested analytics modules and Git-friendly project structure.
@@ -37,12 +38,13 @@ World Bank indicators used:
 - Indexed market performance chart with base value = 100.
 - Macro context tab linking each market to country or regional indicators.
 - Risk lens with volatility, drawdown, and return-correlation heatmap.
+- SQL query portfolio for annual returns, drawdown, volatility, rolling returns, correlations, and macro joins.
 - Automated English and Chinese insight bullets for interview storytelling.
 - Raw data tab for transparency and reproducibility.
 
 ## Tech Stack / 技术栈
 
-Python, pandas, NumPy, Plotly, Streamlit, yfinance, requests, pytest, uv
+Python, SQL, DuckDB, pandas, NumPy, Plotly, Streamlit, yfinance, requests, pytest, uv
 
 ## Project Structure / 项目结构
 
@@ -56,6 +58,10 @@ Python, pandas, NumPy, Plotly, Streamlit, yfinance, requests, pytest, uv
 |-- scripts/
 |   |-- update_data.py
 |   `-- update_macro_data.py
+|-- sql/
+|   |-- README.md
+|   |-- analysis_queries.sql
+|   `-- schema.sql
 |-- src/
 |   |-- data_loader.py
 |   |-- insights.py
@@ -67,8 +73,26 @@ Python, pandas, NumPy, Plotly, Streamlit, yfinance, requests, pytest, uv
     |-- test_insights.py
     |-- test_macro_insights.py
     |-- test_macro_loader.py
+    |-- test_sql_layer.py
     `-- test_metrics.py
 ```
+
+## SQL Analytics Layer / SQL 分析层
+
+The `sql/` folder demonstrates practical analytics SQL on the same datasets used by the dashboard. DuckDB reads the CSV files directly and runs queries with CTEs, window functions, aggregations, correlation, and joins between market data and World Bank macro indicators.
+
+SQL examples include:
+
+- Annual return by market.
+- Full-period return and annualized volatility.
+- Maximum drawdown by market.
+- Return-to-risk ranking.
+- Market performance joined with GDP, inflation, and unemployment.
+- 12-month rolling return with `LAG`.
+- High-return but high-drawdown market screening.
+- Pairwise return correlation.
+- Macro trend by country and indicator.
+- Annual market return versus GDP growth.
 
 ## Run Locally / 本地运行
 
@@ -81,6 +105,12 @@ Run tests:
 
 ```powershell
 uv run pytest
+```
+
+Run only the SQL layer tests:
+
+```powershell
+uv run pytest tests/test_sql_layer.py
 ```
 
 Optional: refresh online market data from Yahoo Finance:
@@ -99,7 +129,6 @@ The app always works with the included sample data. If files exist under `data/l
 
 ## Example Resume Bullet / 简历项目描述
 
-Built a bilingual Streamlit dashboard combining global equity index data with official World Bank macro indicators; implemented market return, volatility, drawdown, correlation, GDP/inflation/unemployment context, and automated insight generation with unit-tested Python analytics modules.
+Built a bilingual Streamlit dashboard combining global equity index data with official World Bank macro indicators; used SQL CTEs, window functions, aggregations, and multi-table joins to analyze returns, volatility, drawdown, correlations, and macro context, with unit-tested Python and DuckDB analytics modules.
 
-使用 Python、pandas、Plotly 和 Streamlit 构建中英双语全球股票指数分析 Dashboard，结合 Yahoo Finance 市场数据与世界银行宏观指标，实现收益率、年化波动率、最大回撤、相关性、GDP/通胀/失业率背景分析和自动洞察生成，并为核心模块编写单元测试。
-
+使用 Python、SQL、DuckDB、pandas、Plotly 和 Streamlit 构建中英双语全球股票指数分析 Dashboard；通过 SQL CTE、窗口函数、聚合查询和多表 Join 分析股票指数收益、波动、最大回撤、相关性及 World Bank 宏观指标，并将结果可视化为交互式分析看板。
